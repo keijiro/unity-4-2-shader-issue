@@ -9,7 +9,7 @@ public class AssetLoader : MonoBehaviour
             var prefab = Resources.Load ("Cube");
             var go = Instantiate (prefab) as GameObject;
 
-            yield return new WaitForSeconds (0.3f);
+            yield return new WaitForSeconds (0.75f);
             Object.Destroy (go);
 
             prefab = null;
